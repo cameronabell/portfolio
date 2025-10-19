@@ -1,0 +1,54 @@
+body {
+    @apply bg-ca-surface-800 bg-no-repeat bg-auto bg-blend-lighten bg-fixed;
+    background-image: url('../../assets/images/gradient-bg.jpg');
+}
+
+h1 {
+    @apply text-6xl font-semibold text-white font-montserrat;
+}
+
+h2 {
+    @apply text-5xl font-semibold text-white font-montserrat;
+}
+
+h3 {
+    @apply text-3xl font-semibold text-white font-montserrat;
+}
+
+h4 {
+    @apply text-xl font-semibold text-white font-montserrat;
+}
+
+h5 {
+    @apply text-base font-semibold text-white font-montserrat;
+}
+
+h6 {
+    @apply text-sm font-semibold text-white font-montserrat;
+}
+
+p {
+    @apply text-lg;
+}
+
+a {
+    @apply text-primary-500;
+}
+
+a:hover {
+    @apply text-primary-700;
+}
+
+.p-divider-horizontal {
+    @apply my-3;
+
+    &:before {
+        border-top: 1px solid white;
+    }
+}
+
+.divider-dark {
+    &:before {
+        @apply border-t-ca-gray-900
+    }
+}

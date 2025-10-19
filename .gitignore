@@ -396,3 +396,22 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.idea
+.DS_Store
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

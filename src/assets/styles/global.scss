@@ -1,0 +1,35 @@
+@layer tailwind-base, primereact, prime-theme, prime-overrides, tailwind-utilities;
+
+/* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
+@import './fonts.scss';
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer prime-theme {
+    @import '../theme/theme';
+}
+
+@layer prime-overrides {
+    @import './prime-overrides.scss';
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+.social-icon svg {
+    @apply size-8 p-1;
+}
+
+.menu-icon svg {
+    @apply size-12 p-1;
+}
+
+.logo-divider {
+    &::before {
+        border-left: 2px solid white;
+    }
+}

@@ -1,0 +1,25 @@
+/*
+    Theme from PrimeReact's GitHub: https://github.com/primefaces/primereact-sass-theme;
+
+    ! DO NOT REMOVE OR MODIFY THE FOLLOWING VERSION
+    Version: "10.8.2";
+    ? To update the theme, follow the instructions within the README.md
+
+    ! Do NOT make changes to this file. This file is used by the theme-update.js script.
+
+    ! Only make changes inside `./_theme.scss`, `./_variables.scss`, and `./_extensions.scss`.
+*/
+
+$primaryColor: #d83f87 !default;
+$primaryLightColor: #e88cb7 !default;
+$primaryLighterColor: #efb2cf !default;
+$primaryLightestColor: #d83f8622 !default;
+$primaryTextColor: #fff !default;
+
+$highlightBg: #d83f8622 !default;
+$highlightTextColor: rgba(255, 255, 255, 0.87) !default;
+$highlightFocusBg: rgba($primaryColor, 0.24) !default;
+
+@import "./_variables.scss";
+@import "./theme-base/_components";
+@import "./_extensions.scss";
